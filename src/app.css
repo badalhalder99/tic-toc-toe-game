@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+h1,
+h2 {
+  font-family: poppins;
+}
+.app,
+.game {
+  text-align: center;
+}
+.boardRow {
+  border: 2px solid darkblue;
+	border-radius: 5px;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.square {
+  font-size: 28px;
+  font-weight: bold;
+}
+.gameH3{
+  font-family: poppins;
+  font-size: 22px;
+}
+.restart{
+  font-family: poppins;
+  font-size: 16px;
+  padding: 4px 7px;
+}
